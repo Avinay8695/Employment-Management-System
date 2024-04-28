@@ -1,0 +1,43 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th ,td{
+    text-align:center ;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+th{
+    background-color: #f2f2f2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+@media(max-width:768px){
+    th.td{
+        width: 50%;
+    }
+}
